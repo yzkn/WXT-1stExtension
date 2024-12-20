@@ -30,6 +30,20 @@ cd 1stext
 # volta pin npm@11.0.0
 
 npm install
+```
+
+<details>
+  <summary>一時的なエラーの解決策</summary>
+
+`(define name):1:0: ERROR: Expected identifier but found "import"` と出力された場合は、以下のコマンドを実行する。
+
+```sh
+npm i -D esbuild@0.24.0
+```
+
+</details>
+
+```sh
 npm run dev
 ```
 
