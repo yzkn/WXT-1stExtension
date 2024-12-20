@@ -16,11 +16,9 @@ volta install npm@latest
 ## WXTのインストール
 
 ```sh
-npx wxt@latest init
+npx wxt@latest init 1stext
 ```
 
-> √ Project Directory ... 1stext
->
 > ✔ Choose a template › vue
 >
 > ✔ Package Manager › npm
@@ -32,7 +30,7 @@ cd 1stext
 # volta pin npm@11.0.0
 
 npm install
-npm install bootstrap @popperjs/core bootstrap-icons
+npm run dev
 ```
 
 ---
